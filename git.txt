@@ -31,6 +31,13 @@ git commit -m "write message of commit"
 //Always run "git status" to see what your git is showing you
 git status
 
+//To see the history of all files commited
+git log
+
+//To restore to previous version (this is useful when the current version of code has a bug)
+1.) copy the commit hash number
+2.) write git checkout "paste the commit hash number"
+
 
 
 
