@@ -1,0 +1,36 @@
+//first check if you have installed git properly
+git --version
+
+//configure git to work with your name and email
+//This is to track who made changes in the project
+git config --global user.name "Your name"
+git config --global user.email "Your email"
+
+//Repository is where git tracks everything (all the versions of your codes) in your project
+//for creating a local Repository
+git init
+
+//To make a default branch name created by git (i.e change it from master to main)
+git config --global init.defaultBranch main
+
+//Add 2 files (hello.js and readme.md) and type
+git status
+//git status : tells you the branch and many files that are not commited and that are untracked
+//for this example, there are 2 untracked and uncommited files
+
+//To add only a file
+git add "name of the file"
+
+//To add all files at once, plus folders (for example added a new file called test.js to show how to add all files at once instead of one file after the other)
+git add .
+//The " . " : means current directory
+
+//To commit with a message (-m) is to track the file
+git commit -m "write message of commit"
+
+//Always run "git status" to see what your git is showing you
+git status
+
+
+
+
