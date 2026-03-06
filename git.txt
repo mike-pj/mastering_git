@@ -37,6 +37,16 @@ git log
 //To restore to previous version (this is useful when the current version of code has a bug)
 1.) copy the commit hash number
 2.) write git checkout "paste the commit hash number"
+3.) Notice the cancelled files. (no worries, the files are added and saved)
+
+//To get back to the current version (from above the see the cancelled files again)
+git checkout main
+
+//To discard the cancelled files (from above i.e the restore section, if you do not want to see the cancelled files, )
+git checkout -f main
+// " -f " - means force discard
+
+
 
 
 
