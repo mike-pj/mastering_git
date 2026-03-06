@@ -69,5 +69,24 @@ git checkout main
 //To create and move to a branch all at once (e.g feature-branch name of newly branch you created and want to enter)
 git checkout -b feature-branch
 
+//To switch back to original branch main
+git checkout main
+
+//To create and move to a branch all at once (e.g feature-branch name of newly branch you created and want to enter)
+git checkout -b feature-branch
+
+//To push a file into a newly switched branch e.g feature-branch (we go to our file "readme.md" modify, add, commit and push)
+git push --set-upstream origin feature-branch
+git push -u origin feature-branch
+//both codes can be used above
+
+//If anyone made modifications or changes in any of your remote Repository branches, we have to make those changes merge and appear in our local Repository. like make it sync.
+git pull
+
+//A "pull request" let's you share your changes with your team for review and feed back. Once approved and merged, your changes become a part of the main branch, keeping the code base stable and organized
+on your github:
+1.) Click on pull request
+2.) Click on new request
+3.) Click on branch you want to merge from (in our own case, feature-branch)
 
 
