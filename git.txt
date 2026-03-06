@@ -57,7 +57,17 @@ git remote add origin https://github.com/mike-pj/mastering_git.git
 git push -u origin main
 
 ******************************** BRANCHING AND MERGING **********************************
+//To create a new branch (e.g branch-name name of new branch)
+git branch branch-name
 
+//To switch to the new branch created
+git checkout branch-name
+
+//To switch back to original branch main
+git checkout main
+
+//To create and move to a branch all at once (e.g feature-branch name of newly branch you created and want to enter)
+git checkout -b feature-branch
 
 
 
