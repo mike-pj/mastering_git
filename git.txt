@@ -69,6 +69,12 @@ git checkout main
 //To create and move to a branch all at once (e.g feature-branch name of newly branch you created and want to enter)
 git checkout -b feature-branch
 
+//To switch back to original branch main
+git checkout main
+
+//To create and move to a branch all at once (e.g feature-branch name of newly branch you created and want to enter)
+git checkout -b feature-branch
+
 //To push a file into a newly switched branch e.g feature-branch (we go to our file "readme.md" modify, add, commit and push)
 git push --set-upstream origin feature-branch
 git push -u origin feature-branch
