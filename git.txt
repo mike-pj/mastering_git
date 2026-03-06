@@ -69,5 +69,7 @@ git checkout main
 //To create and move to a branch all at once (e.g feature-branch name of newly branch you created and want to enter)
 git checkout -b feature-branch
 
+//To ....... (we go to our file "readme.md" modify, add, commit and push)
+
 
 
