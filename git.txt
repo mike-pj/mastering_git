@@ -46,7 +46,17 @@ git checkout main
 git checkout -f main
 // " -f " - means force discard
 
+//To switch the master branch to main (this is a standard practice)
+git branch -M main
 
+//To link local Repository to remote Repository
+git remote add origin https://github.com/mike-pj/mastering_git.git
+// origin = https://github.com/mike-pj/mastering_git.git (origin - is the name of the url link)
+
+//To push to github
+git push -u origin main
+
+******************************** BRANCHING AND MERGING **********************************
 
 
 
