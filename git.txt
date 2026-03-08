@@ -88,5 +88,20 @@ on your github:
 1.) Click on pull request
 2.) Click on new request
 3.) Click on branch you want to merge from (in our own case, feature-branch)
+4.) Click on merge
+
+//To make all above appear on your local Repository (appear on your computer)
+git pull 
+git pull -u origin main (another way to write it)
+
+
+************* Resolving Merge Conflicts between two or three branches ******************
+// Create 2 branches:
+git branch dev-frontend
+
+// Create and switch to a different branch all at once
+git checkout -b dev-backend
+
+//Now in the dev-backend branch, modify readme file (to 'Welcome to Git')
 
 
